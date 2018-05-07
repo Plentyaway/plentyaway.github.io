@@ -7,5 +7,4 @@ categories: uncategorized
 
 I like [Fortnite][link-to-epic].
 
-
 [link-to-epic]: https://epicgames.com
