@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Links
-permalink: /Links/
+permalink: /links/
 ---
 
 I like these links:
