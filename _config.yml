@@ -23,7 +23,7 @@ twitter_username: #
 github_username:  plentyaway
 disqus:
   shortname: plentyaway.github.io
-
+timezone: America/California
 # Build settings
 markdown: kramdown
 theme: minima
