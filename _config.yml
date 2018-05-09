@@ -22,7 +22,7 @@ url: "https://plentyaway.github.io"
 twitter_username: #
 github_username:  plentyaway
 disqus:
-  shortname: plentyaway.github.io
+  shortname: plentyaway-github-io
 timezone: America/Los_Angeles
 # Build settings
 markdown: kramdown
