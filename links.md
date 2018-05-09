@@ -12,8 +12,8 @@ I like these links:
 * [Reddit] 
 * [Git] 
 
-[Fortnite: https://epicgames.com]
-[Flamingo: https://www.youtube.com/watch?v=rY-FJvRqK0E]
-[Learn@VCS: https://learn.vcs.net]
-[Reddit: https://reddit.com]
-[Git: https://github.io]
+[Fortnite]: https://epicgames.com
+[Flamingo]: https://www.youtube.com/watch?v=rY-FJvRqK0E
+[Learn@VCS]: https://learn.vcs.net
+[Reddit]: https://reddit.com
+[Git]: https://github.io
