@@ -7,9 +7,13 @@ author: Dionese
 ---
 
 *Wow*
+
 **WOW**
+
 [Fortnite](https://epicgames.com)
+
 ![alt](https://media.giphy.com/media/Kerg053G7ZJUQ/giphy.gif)
+
 I give [^1] up
 [^1]: I did
 * Cheese
