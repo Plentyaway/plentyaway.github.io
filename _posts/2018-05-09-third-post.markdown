@@ -5,7 +5,7 @@ date:   2018-05-09 11:28:49 -0700
 categories: uncategorized
 author: Dionese
 ---
-
+- [x] Done
 *Wow*
 
 **WOW**
@@ -29,3 +29,5 @@ s u p r e m e
 #### Give
 ##### Up
 ###### Now
+
+- [ ] Death
