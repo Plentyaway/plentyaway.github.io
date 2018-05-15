@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Project"
+date:   2018-05-15 10:32:49 -0700
+categories: uncategorized
+author: Aristotle
+---
+
+When I was in junior high, I created a [website][link]
+
+[link]: /website/
