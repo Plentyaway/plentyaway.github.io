@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<script>
+		var Dice1 = 0;
+		var Dice2 = 0;
+		var Dice3 = 0;
+		var Dice4 = 0;
+		var Dice5 = 0;
+		var Dice6 = 0;
+</script>
+</head>
+
+<body>
+	<script>
+		function rollDice() {
+			var x = Math.floor((Math.random() * 6) + 1);
+			document.write(x);
+				switch(x) {
+					case 1:
+						Dice1 ++;
+						break;
+					case 2:
+						Dice2 ++;
+						break;
+					case 3:
+						Dice3 ++;
+						break;
+					case 4:
+						Dice4 ++;
+						break;
+					case 5:
+						Dice5 ++;
+						break;
+					case 6:
+						Dice6 ++;
+						break;
+				}
+			}
+		for( var i = 0; i <= 100; i +=1) {
+			rollDice();
+			document.write("<br>");
+		}
+		document.write("<hr> The amount of times you rolled 1 was " + Dice1);
+		document.write("<br> The amount of times you rolled 2 was " + Dice2);
+		document.write("<br> The amount of times you rolled 3 was " + Dice3);
+		document.write("<br> The amount of times you rolled 4 was " + Dice4);
+		document.write("<br> The amount of times you rolled 5 was " + Dice5);
+		document.write("<br> The amount of times you rolled 6 was " + Dice6);
+	</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+	<script>
+		var input = Number(prompt("What would you like for me to calculate?"));
+		function factorial(n) {
+			if(n == 0 || n == 1) {
+				return 1;	
+			}
+			else {
+				return n * factorial(n - 1);
+			}	
+		}
+		document.write("Your result is " + factorial(input));
+	</script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/*Color Palette
+#FFB6C1-Pinkish
+c-Blueish
+#FDAE01-Yellowish
+*/
+
+/*Body Formatting */
+body {
+	color:#40DFF9;	
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	background-color:#40DFF9;
+	background-image: url(https://media.giphy.com/media/6BizfBWEy3fMs/giphy.gif);
+	background-size: cover;
+	}
+
+/*Wrapper Formatting*/
+#wrapper {
+	width: 1440px;
+	padding: 10px;
+	margin: 10px auto;
+}
+
+/*Header Formatting*/
+#header {
+	height: 90px;
+}
+/*Sidebar Formatting*/
+#sidebar {
+	text-align:center;
+	float: left;
+	width: 200px;
+	height: 300px;
+}
+#sidebar p a {
+	color: #40DFF9;
+}
+
+/*Content Formatting*/
+#content {
+	float: right;
+	width: 1200px;
+	height:300px;
+}
+
+/*Footer Formatting*/
+#footer {
+	clear: both;
+}
+#footer p {
+	text-align:right;
+	font-family:10px;
+}
+
+/*Colors and Fonts*/
+#header, #sidebar, #content, #footer {
+	background-color: #FFB6C1;
+	margin-bottom: 4px;
+	border: groove;
+	border-radius: 8px;
+	border-color: grey;
+	padding-left: 4px;
+	padding-right: 8px;
+}
+
+/*Responsive Width*/
+@media screen and (max-width : 980px ) {
+	#wrapper {
+		width: 94%;	
+	}
+	#content {
+		width: 60%;
+	}
+	#sidebar {
+		width: 30%;	
+	}
+}
+
+@media screen and (max-width : 700px ) {
+	#conent, #sidebar {
+		width: auto;
+		float: none;	
+	}
+	#header {
+		height:auto;
+	}
+}

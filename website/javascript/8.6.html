@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+	<script>
+		var w = 0;
+		var l = 0;
+		function rps() {
+			var y = prompt("What will you throw? i.e. rock, paper, scissors");
+			var x = Math.floor((Math.random() * 3) + 1);
+			switch(x) {
+				case 1:
+					x = "rock";
+					break;
+				case 2:
+					x = "paper";
+					break;
+				case 3:	
+					x = "scissors";
+					break;
+			}
+			if(y===x) {
+			alert("It is a tie!")	
+			}
+			else if(y=="rock") {
+				if(x=="paper") {
+					alert("You lost!");	
+					l++;
+				}
+				if(x=="scissors") {
+					alert("You won!");	
+					w++;
+				}
+			}
+			else if(y=="paper") {
+				if (x=="rock") {
+					alert("You won!");
+					w++;
+				}
+				if (x=="scissors") {
+					alert('You lost!');
+					l++;
+				}
+			}
+			else if(y=="scissors") {
+				if (x=="rock") {
+					alert("You lost!");
+					l++;
+				}
+				if (x=="paper") {
+					alert('You won!');
+					w++;
+				}				
+			}
+			else {
+				alert("The input you gave is not valid.");
+			}
+			document.getElementById("results").innerHTML = "You have won " + w + " times and lost " + l + " times.";
+		}
+	
+	</script>
+	<button onClick = "rps()" style = "font-size:24px">Click me to play rock, paper, scissors</button>
+	<p id="option"></p>
+	<p id="results"></p>
+</body>
+</html>

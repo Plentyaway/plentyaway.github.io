@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<script>
+	function nightmode() {
+		document.body.style.backgroundColor = "gray";	
+		document.getElementById("demo").style.color = "yellow";
+	}
+	function daymode() {
+		document.body.style.backgroundColor = "yellow";
+		document.getElementById("demo").style.color = "gray";
+	}
+	</script>
+</head>
+
+<body>
+<button type="button" onClick="nightmode()">Night Mode</button>
+<br>
+<button type="button" onClick="daymode()">Day Mode</button>
+<p id="demo">Life is meaningless</p>
+</body>
+</html>

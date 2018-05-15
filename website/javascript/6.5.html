@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<script>
+var distance = 55;
+var mph = 51;
+var time = (distance/mph);
+document.write("It will take " + time + " hours for you to get from San Jose to San Francisco.")
+</script>
+<br>
+<button type="button" onClick="MyFunction()">Click me to destination</button>
+<script>
+	function MyFunction() {
+			var destination = prompt("What is your destination");
+			var distance = Number(prompt("How far away is your destination in miles?"));
+			var mph = Number(prompt("How fast will you be traveling in mph?"));
+			var hour = Math.floor(distance/mph);
+			var minutes = Math.round(60*(distance/mph - hour));
+			document.getElementById("result").innerHTML = "It will take you " + hour + "hours and " + minutes + "minutes to get to " + destination + ".";
+	}
+</script>
+<p id="result"></p>
+</body>
+</html>
