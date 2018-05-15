@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Project"
-date:   2018-05-015 10:32:49 -0700
+date:   2018-05-15 10:32:49 -0700
 categories: uncategorized
 author: Aristotle
 ---
